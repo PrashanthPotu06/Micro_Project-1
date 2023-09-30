@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;   
+}
+
+.top{
+    height: 66vh;
+    width: 100vw;
+    background-color: #FFCD9E;   
+}
+.top-left{
+    width: 56vw;
+    height:66vh ;
+    float: left;
+}
+.heading-display{
+    font-size:5vh;
+    font-weight: 700;
+    transform: translate(9.4vw,9.3vh);
+}
+.para-1{
+    font-size: 2.75vh;
+    transform: translate(9.4vw,12.5vh);
+    color: #484848;
+}
+.para-2{
+    font-size: 2.75vh;
+    transform: translate(9.4vw,15vh);
+    font-weight: 800;
+}
+input{
+    width: 23vw;
+    height: 7.1vh;
+    transform: translate(9.4vw,17vh);
+    border-radius: 1.1vh;
+    border: 0.44vh solid;
+    border-color: black;
+    
+}
+:placeholder-shown{
+    font-size: 2.75vh;
+    padding-left: 1.5vw;
+}
+button{
+    width: 15vw;
+    height: 7.1vh;
+    border-radius: 1.1vh;
+    font-size: 2.75vh;
+    transform: translate(10.5vw,17vh);
+    font-weight: 800;
+    background-color: black;
+    color:white;
+}
+.small-text{
+    font-size: 2.25vh;
+    transform: translate(12vw,19.5vh);
+    color: #ffffff;
+}
+.top-right{
+    /* transform: translate(15vw,1vh); */
+    /* width:44vw;
+    height: 66vh; */
+    float: right;
+}
+#main-image{
+    width:40;
+    height: 66vh;
+    margin-right: 7vw;
+}
+.bottom{
+    background-color: black;
+    height: 34vh;
+    width: 100vw;
+}
+.bottom-left{
+    float: left;
+}
+.bottom-left li{
+    font-size: 2.75vh;
+    color: #ffffff;
+    padding: 0.7vh;
+    transform: translate(15vw,3vh);
+    list-style-type: none;
+}
+.bottom-right li{
+    font-size: 2.75vh;
+    color: #ffffff;
+    padding: 0.7vh;
+    transform: translate(23vw,3vh);
+    list-style-type: none;
+    text-align: right;
+}
+.bottom-right{
+    float: right;
+}
+.logo{
+    width: 4vh;
+    height: 4vh;
+
+}
